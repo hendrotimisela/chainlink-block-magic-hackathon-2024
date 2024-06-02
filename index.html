@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Chainlink Block Magic Hackathon 2024</title>
+    </head>
+    <body>
+        <br/>
+        <button id="connect-wallet-button">Connect Wallet</button>
+
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+
+        <h2>Create Character Token</h2>
+        <label>Token Name</label>
+        <input id="token-name-input">
+        <br/>
+        <br/>
+        <label>Token Symbol</label>
+        <input id="token-symbol-input">
+        <br/>
+        <br/>
+        <label>Token Supply</label>
+        <input id="token-supply-input" type="number" min="1">
+        <br/>
+        <br/>
+        <label>Character Tagline</label>
+        <input id="token-tagline-input">
+        <br/>
+        <br/>
+        <label>Character Description</label>
+        <input id="token-description-input">
+        <br/>
+        <br/>
+        <label>Character Greeting</label>
+        <input id="token-greeting-input">
+        <br/>
+        <br/>
+        <label>Character Voice</label>
+        <input id="token-voice-input">
+        <br/>
+        <br/>
+        <label>Character Additional Info</label>
+        <input id="token-additional-info-input">
+        <br/>
+        <br/>
+        <br/>
+        <button id="create-token-button">Create Token</button>
+
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+
+        <h2>Create Token Listing</h2>
+        <label>Token Address</label>
+        <input id="listing-token-address-input">
+        <br/>
+        <br/>
+        <label>Token Amount</label>
+        <input id="listing-token-amount-input">
+        <br/>
+        <br/>
+        <label>Price in Matic</label>
+        <input id="listing-token-price-input">
+        <br/>
+        <br/>
+        <br/>
+        <button id="create-token-listing-button">Create Token Listing</button>
+
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+
+        <h2>Character Listings</h2>
+        <br/>
+        <button id="refresh-token-listings-button">Refresh Character Listings</button>
+
+        <br/>
+        <br/>
+        <div id="token-listings">
+            <div id="example-token-listing" style="display: none;">
+                <br/><br/>
+                <p class="token-listing-description"></p>
+                <button class="token-listing-buy-button">Buy</button>
+            </div>
+        </div>
+
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+
+        <script src="ethers.umd.min.js"></script>
+        <script src="helper.js"></script>
+        <script src="smartcontracts.js"></script>
+        <script src="main.js"></script>
+    </body>
+</html>
