@@ -1,1 +1,1 @@
-# chainlink-block-magic-hackathon-2024
+# Chainlink Block Magic Hackathon 2024
